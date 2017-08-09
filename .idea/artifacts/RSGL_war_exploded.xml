@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="RSGL:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RSGL_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jsp-api.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/tomcat-api.jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
+        <element id="library" level="project" name="jsp-api" />
+      </element>
+      <element id="module-output" name="RSGL" />
+      <element id="javaee-facet-resources" facet="RSGL/web/Web" />
+      <element id="library" level="project" name="ojdbc14" />
+    </root>
+  </artifact>
+</component>
